@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/paymobile/static/css/main.697c64f2.chunk.css",
+    "main.js": "/paymobile/static/js/main.a1f7da3d.chunk.js",
+    "main.js.map": "/paymobile/static/js/main.a1f7da3d.chunk.js.map",
+    "runtime-main.js": "/paymobile/static/js/runtime-main.806a597e.js",
+    "runtime-main.js.map": "/paymobile/static/js/runtime-main.806a597e.js.map",
+    "index.html": "/paymobile/index.html",
+    "precache-manifest.46ca4bd842c99c7520e4cd743dfb9d43.js": "/paymobile/precache-manifest.46ca4bd842c99c7520e4cd743dfb9d43.js",
+    "service-worker.js": "/paymobile/service-worker.js",
+    "static/css/main.697c64f2.chunk.css.map": "/paymobile/static/css/main.697c64f2.chunk.css.map",
+    "static/media/logo.svg": "/paymobile/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.806a597e.js",
+    "static/css/main.697c64f2.chunk.css",
+    "static/js/main.a1f7da3d.chunk.js"
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+    
+    <title>Оплата мобильного телефона</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <center><h1>&#128133&#128133&#128133</h1>
+    
+      <form class="decor">
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+            <img src="1_l.png">
+            <h3>МТС</h3>            
+            <input type="tel" name="phone" placeholder="Телефон"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" />
+            <input type="price" placeholder="Сумма (Минимум 1 ₽, максимум 1000 ₽)" min="1" max="1000">
+
+              <a href="#" class="button" id="myBtn" >Оплатить</a>
+              <div id="myModal" class="modal">
+                  <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div id="error"></div>
+                      <div id="message"></div>
+                  </div>
+              </div>
+
+          </div>
+        </form>
+
+        <script src="script.js"> </script>
+
+    
+    </center>
+
+
+
+  </body>
+</html>
